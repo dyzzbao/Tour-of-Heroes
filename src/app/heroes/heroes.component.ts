@@ -7,7 +7,7 @@ import { HEROES } from '../mock-heroes';
   styleUrls: ['./heroes.component.css'],
 })
 export class HeroesComponent implements OnInit {
-  hero = HEROES;
+  heroes = HEROES;
   constructor() {}
   ngOnInit(): void {}
 }
